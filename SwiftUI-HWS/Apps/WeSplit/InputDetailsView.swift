@@ -40,7 +40,7 @@ struct InputDetailsView: View {
                 }
                 
                 Section(header: Text("Total Per Person")) {
-                    Text("$\(totalPerPerson, specifier: "%.2f")")
+                    Text("$\(checkAmount, specifier: "%.2f")")
                 }
             }
             .navigationTitle("We Split")
