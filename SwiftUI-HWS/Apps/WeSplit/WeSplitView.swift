@@ -1,5 +1,5 @@
 //
-//  InputDetailsView.swift
+//  WeSplitView.swift
 //  SwiftUI-HWS
 //
 //  Created by Prateek Roy on 25/09/20.
@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct InputDetailsView: View {
+struct WeSplitView: View {
     @State private var checkAmount = ""
     @State private var peopleSelectedIndex = 2
     @State private var tipPercentageIndex = 2
@@ -59,6 +59,6 @@ struct InputDetailsView: View {
 
 struct InputDetailsView_Previews: PreviewProvider {
     static var previews: some View {
-        InputDetailsView()
+        WeSplitView()
     }
 }

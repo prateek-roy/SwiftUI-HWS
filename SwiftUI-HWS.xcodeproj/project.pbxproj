@@ -8,20 +8,20 @@
 
 /* Begin PBXBuildFile section */
 		EBE441AA251E36BF00E8517C /* SwiftUI_HWSApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBE441A9251E36BF00E8517C /* SwiftUI_HWSApp.swift */; };
-		EBE441AC251E36BF00E8517C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBE441AB251E36BF00E8517C /* ContentView.swift */; };
+		EBE441AC251E36BF00E8517C /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBE441AB251E36BF00E8517C /* HomeView.swift */; };
 		EBE441AE251E36C100E8517C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EBE441AD251E36C100E8517C /* Assets.xcassets */; };
 		EBE441B1251E36C100E8517C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EBE441B0251E36C100E8517C /* Preview Assets.xcassets */; };
-		EBE441BE251E38E900E8517C /* InputDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBE441BD251E38E900E8517C /* InputDetailsView.swift */; };
+		EBE441BE251E38E900E8517C /* WeSplitView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBE441BD251E38E900E8517C /* WeSplitView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		EBE441A6251E36BF00E8517C /* SwiftUI-HWS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SwiftUI-HWS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EBE441A9251E36BF00E8517C /* SwiftUI_HWSApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUI_HWSApp.swift; sourceTree = "<group>"; };
-		EBE441AB251E36BF00E8517C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		EBE441AB251E36BF00E8517C /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		EBE441AD251E36C100E8517C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EBE441B0251E36C100E8517C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		EBE441B2251E36C100E8517C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		EBE441BD251E38E900E8517C /* InputDetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InputDetailsView.swift; sourceTree = "<group>"; };
+		EBE441BD251E38E900E8517C /* WeSplitView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeSplitView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,6 +35,13 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		EBC6A0242521CFC3002241E0 /* GuessTheFlag */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = GuessTheFlag;
+			sourceTree = "<group>";
+		};
 		EBE4419D251E36BF00E8517C = {
 			isa = PBXGroup;
 			children = (
@@ -75,7 +82,7 @@
 		EBE441B9251E371400E8517C /* HomeView */ = {
 			isa = PBXGroup;
 			children = (
-				EBE441AB251E36BF00E8517C /* ContentView.swift */,
+				EBE441AB251E36BF00E8517C /* HomeView.swift */,
 			);
 			path = HomeView;
 			sourceTree = "<group>";
@@ -91,6 +98,7 @@
 		EBE441BB251E387700E8517C /* Apps */ = {
 			isa = PBXGroup;
 			children = (
+				EBC6A0242521CFC3002241E0 /* GuessTheFlag */,
 				EBE441BC251E388F00E8517C /* WeSplit */,
 			);
 			path = Apps;
@@ -99,7 +107,7 @@
 		EBE441BC251E388F00E8517C /* WeSplit */ = {
 			isa = PBXGroup;
 			children = (
-				EBE441BD251E38E900E8517C /* InputDetailsView.swift */,
+				EBE441BD251E38E900E8517C /* WeSplitView.swift */,
 			);
 			path = WeSplit;
 			sourceTree = "<group>";
@@ -173,9 +181,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EBE441AC251E36BF00E8517C /* ContentView.swift in Sources */,
+				EBE441AC251E36BF00E8517C /* HomeView.swift in Sources */,
 				EBE441AA251E36BF00E8517C /* SwiftUI_HWSApp.swift in Sources */,
-				EBE441BE251E38E900E8517C /* InputDetailsView.swift in Sources */,
+				EBE441BE251E38E900E8517C /* WeSplitView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
