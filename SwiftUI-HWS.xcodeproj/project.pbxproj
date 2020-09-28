@@ -11,6 +11,7 @@
 		EBE441AC251E36BF00E8517C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBE441AB251E36BF00E8517C /* ContentView.swift */; };
 		EBE441AE251E36C100E8517C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EBE441AD251E36C100E8517C /* Assets.xcassets */; };
 		EBE441B1251E36C100E8517C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EBE441B0251E36C100E8517C /* Preview Assets.xcassets */; };
+		EBE441BE251E38E900E8517C /* InputDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBE441BD251E38E900E8517C /* InputDetailsView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +21,7 @@
 		EBE441AD251E36C100E8517C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EBE441B0251E36C100E8517C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		EBE441B2251E36C100E8517C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EBE441BD251E38E900E8517C /* InputDetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InputDetailsView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,8 +54,9 @@
 		EBE441A8251E36BF00E8517C /* SwiftUI-HWS */ = {
 			isa = PBXGroup;
 			children = (
-				EBE441A9251E36BF00E8517C /* SwiftUI_HWSApp.swift */,
-				EBE441AB251E36BF00E8517C /* ContentView.swift */,
+				EBE441BA251E371E00E8517C /* AppController */,
+				EBE441B9251E371400E8517C /* HomeView */,
+				EBE441BB251E387700E8517C /* Apps */,
 				EBE441AD251E36C100E8517C /* Assets.xcassets */,
 				EBE441B2251E36C100E8517C /* Info.plist */,
 				EBE441AF251E36C100E8517C /* Preview Content */,
@@ -67,6 +70,38 @@
 				EBE441B0251E36C100E8517C /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		EBE441B9251E371400E8517C /* HomeView */ = {
+			isa = PBXGroup;
+			children = (
+				EBE441AB251E36BF00E8517C /* ContentView.swift */,
+			);
+			path = HomeView;
+			sourceTree = "<group>";
+		};
+		EBE441BA251E371E00E8517C /* AppController */ = {
+			isa = PBXGroup;
+			children = (
+				EBE441A9251E36BF00E8517C /* SwiftUI_HWSApp.swift */,
+			);
+			path = AppController;
+			sourceTree = "<group>";
+		};
+		EBE441BB251E387700E8517C /* Apps */ = {
+			isa = PBXGroup;
+			children = (
+				EBE441BC251E388F00E8517C /* WeSplit */,
+			);
+			path = Apps;
+			sourceTree = "<group>";
+		};
+		EBE441BC251E388F00E8517C /* WeSplit */ = {
+			isa = PBXGroup;
+			children = (
+				EBE441BD251E38E900E8517C /* InputDetailsView.swift */,
+			);
+			path = WeSplit;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -140,6 +175,7 @@
 			files = (
 				EBE441AC251E36BF00E8517C /* ContentView.swift in Sources */,
 				EBE441AA251E36BF00E8517C /* SwiftUI_HWSApp.swift in Sources */,
+				EBE441BE251E38E900E8517C /* InputDetailsView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
