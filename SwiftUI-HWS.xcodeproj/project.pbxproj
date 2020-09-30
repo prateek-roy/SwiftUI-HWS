@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		EB0458132524A89C0090B642 /* ModifiersExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB0458122524A89C0090B642 /* ModifiersExampleView.swift */; };
+		EB0458182524B5070090B642 /* ContainersExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB0458172524B5070090B642 /* ContainersExampleView.swift */; };
 		EB7E56802523101600411E19 /* GuessTheFlag.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB7E567F2523101600411E19 /* GuessTheFlag.swift */; };
 		EB7E5683252317D500411E19 /* QuizEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB7E5682252317D500411E19 /* QuizEngine.swift */; };
 		EBE441AA251E36BF00E8517C /* SwiftUI_HWSApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBE441A9251E36BF00E8517C /* SwiftUI_HWSApp.swift */; };
@@ -19,6 +20,7 @@
 
 /* Begin PBXFileReference section */
 		EB0458122524A89C0090B642 /* ModifiersExampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModifiersExampleView.swift; sourceTree = "<group>"; };
+		EB0458172524B5070090B642 /* ContainersExampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContainersExampleView.swift; sourceTree = "<group>"; };
 		EB7E567F2523101600411E19 /* GuessTheFlag.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuessTheFlag.swift; sourceTree = "<group>"; };
 		EB7E5682252317D500411E19 /* QuizEngine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizEngine.swift; sourceTree = "<group>"; };
 		EBE441A6251E36BF00E8517C /* SwiftUI-HWS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SwiftUI-HWS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -109,6 +111,7 @@
 				EBC6A0242521CFC3002241E0 /* GuessTheFlag */,
 				EBE441BC251E388F00E8517C /* WeSplit */,
 				EB0458122524A89C0090B642 /* ModifiersExampleView.swift */,
+				EB0458172524B5070090B642 /* ContainersExampleView.swift */,
 			);
 			path = Apps;
 			sourceTree = "<group>";
@@ -194,6 +197,7 @@
 				EBE441AA251E36BF00E8517C /* SwiftUI_HWSApp.swift in Sources */,
 				EBE441BE251E38E900E8517C /* WeSplitView.swift in Sources */,
 				EB7E56802523101600411E19 /* GuessTheFlag.swift in Sources */,
+				EB0458182524B5070090B642 /* ContainersExampleView.swift in Sources */,
 				EB0458132524A89C0090B642 /* ModifiersExampleView.swift in Sources */,
 				EB7E5683252317D500411E19 /* QuizEngine.swift in Sources */,
 			);
